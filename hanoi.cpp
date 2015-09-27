@@ -15,3 +15,8 @@ void hanoiske_veze(int n, int pociatok, int ciel, int odkladacia)
      hanoiske_veze(n - 1, odkladacia, ciel, pociatok);
   }
 }
+
+int main ()
+{
+  hanoiske_veze(4, 1, 2 ,3);
+}
